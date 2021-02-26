@@ -1,4 +1,4 @@
-# install first pytube and moviepy if you have'nt before.
+# install first pytube and moviepy if you haven't before.
 # pip install pytube
 # pip install moviepy
 
@@ -22,7 +22,7 @@ for url in playlist:
 
 folder = "/Users/username/Desktop/custom songs"
 
-#Coverting MP4 to MP3
+#Converting MP4 to MP3
 
 for file in os.listdir(folder):
     if re.search('mp4', file):
